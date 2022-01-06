@@ -10,6 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.decomposition import PCA
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Building a Machine Learning Classifier with Dipto")
 
 st.write("""
